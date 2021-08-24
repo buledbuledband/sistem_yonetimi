@@ -1,0 +1,4 @@
+FROM python:3
+ADD hello_flask.py /
+RUN pip install pystrich
+CMD [ "python", "./hello_flask.py" ]
